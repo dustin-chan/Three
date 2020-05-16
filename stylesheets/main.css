@@ -1,9 +1,12 @@
-body {
-  background-image: url("../assets/images/body.png");
-  font-family: 'Iceland';
+.body {
+  /* background-image: url("../assets/images/body.png"); */
   display: flex;
   width: 11084px;
   height: 13478px;
+}
+
+:root {
+  --chat-1-animation-delay: 10s;
 }
 
 /* .blur-1 {
@@ -136,13 +139,6 @@ h3 {
   animation: controls-ul 120s infinite;
 }
 
-.header-letter {
-  margin: 0 3px 5px 3px;
-  font-family: 'Sacred Geometry';
-  font-size: 32px;
-  animation-name: header-letter;
-  animation-iteration-count: infinite;
-}
 
 #first-header-letter {
   animation-duration: 30s;
@@ -343,16 +339,6 @@ input[type=range] {
 #boom:hover {
   cursor: crosshair;
   animation: boom 7s infinite;
-}
-
-@font-face {
-  font-family: Sacred Geometry;
-  src: url("../assets/Sacred.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: Iceland;
-  src: url("../assets/Iceland-Regular.ttf") format("truetype");
 }
 
 @keyframes header-letter {
