@@ -38,9 +38,21 @@ body {
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
+  opacity: 0;
+  animation-name: reveal;
+  animation-timing-function: ease-in-out;
+  animation-duration: 6s;
+  animation-delay: 2s;
 }
 
-/* .chat-2 {
+@keyframes reveal {
+  0% {opacity: 0}
+  20% {opacity: 1}
+  80% {opacity: 1}
+  100% {opacity: 0}
+}
+
+.chat-2 {
   background-image: url("../assets/images/chat_2_2560x1600.png");
   position: fixed;
   right: 5%;
@@ -50,14 +62,24 @@ body {
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
-} */
+  opacity: 0;
+  animation-name: reveal;
+  animation-timing-function: ease-in-out;
+  animation-duration: 6s;
+  animation-delay: 10s;
+}
 
-/* .hair-1 {
+.hair-1 {
   background-image: url("../assets/images/css_hair_14bea_grey.png");
   position: fixed;
   height: 100%;
   width: 100%;
   background-size: 100% 100%;
+  opacity: 0;
+  animation-name: reveal;
+  animation-timing-function: ease-in-out;
+  animation-duration: 15s;
+  animation-delay: 12s;
 }
 
 .hair-2 {
@@ -66,15 +88,25 @@ body {
   height: 100%;
   width: 100%;
   background-size: 100% 100%;
-} */
+  opacity: 0;
+  animation-name: reveal;
+  animation-timing-function: ease-in-out;
+  animation-duration: 10s;
+  animation-delay: 30s;
+}
 
-/* .net-1 {
+.net-1 {
   background-image: url("../assets/images/css_silicon_grid.png");
   position: fixed;
   height: 100%;
   width: 100%;
   background-size: 100% 100%;
-} */
+  opacity: 0;
+  animation-name: reveal;
+  animation-timing-function: ease-in-out;
+  animation-duration: 20s;
+  animation-delay: 60s;
+}
 
 h3 {
   font-size: 24px;
