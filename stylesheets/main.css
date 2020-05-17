@@ -87,7 +87,7 @@
   animation-name: reveal;
   animation-timing-function: ease-in-out;
   animation-duration: 15s;
-  animation-delay: var(--hair-1-animation-delay);
+  animation-delay: 60s;
 }
 
 .hair-2 {
