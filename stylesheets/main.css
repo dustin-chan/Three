@@ -4,9 +4,9 @@
   width: 11084px;
   height: 13478px;
   animation-name: zoom;
-  animation-delay: 10s;
+  animation-delay: var(--zoom-animation-delay);
   animation-iteration-count: 10;
-  animation-duration: var(--zoom-animation-delay);
+  animation-duration: 5s;
   transform-origin: 50% 50%;
 }
 
