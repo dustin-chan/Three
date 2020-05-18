@@ -467,6 +467,7 @@
   background-size: 100% 100%;
   opacity: 0;
   animation-name: reveal;
+  z-index: 100;
   animation-timing-function: ease-in-out;
   animation-duration: 15s;
   animation-delay: var(--hair-1-animation-delay);
@@ -480,6 +481,7 @@
   background-size: 100% 100%;
   opacity: 0;
   animation-name: reveal;
+  z-index: 100;
   animation-timing-function: ease-in-out;
   animation-duration: 20s;
   animation-delay: var(--net-1-animation-delay);
