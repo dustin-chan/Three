@@ -65,31 +65,41 @@
   --chat-19-animation-delay: 600s;
   --chat-20-animation-delay: 600s;
   --hair-1-animation-delay: 600s;
-  --net-1-animation-delay: 600s;
+  --blur-1-animation-delay: 600s;
+  --blur-2-animation-delay: 600s;
   --zoom-animation-delay: 600s;
 }
 
 .blur-1 {
-  background-image: url("../assets/images/blur_net_1_2560x1600_shape.png");
   position: fixed;
   width: 100%;
   height: 100%;
   background-size: 100% 100%;
-  -webkit-backdrop-filter: blur(10px);
   /* filter: blur(100px); */
   backdrop-filter: blur(10px);
-  opacity: 1;
+  opacity: 0;
+  z-index: 50;
+  animation-name: reveal;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-duration: 3s;
+  animation-delay: var(--blur-1-animation-delay);
 }
 
 .blur-2 {
-  background-image: url("../assets/images/blur_net_2_2560x1600_shape.png");
   position: fixed;
   width: 100%;
   height: 100%;
   background-size: 100% 100%;
-  -webkit-backdrop-filter: blur(1000px);
-  backdrop-filter: blur(1000px);
-  opacity: 0.5;
+  /* filter: blur(100px); */
+  backdrop-filter: blur(10px);
+  z-index: 50;
+  opacity: 0;
+  animation-name: reveal;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-duration: 5s;
+  animation-delay: var(--blur-2-animation-delay);
 }
 
 .chat-1 {
@@ -466,23 +476,11 @@
   width: 100%;
   background-size: 100% 100%;
   opacity: 0;
+  top: 0;
   animation-name: reveal;
-  z-index: 100;
+  z-index: 50;
   animation-timing-function: ease-in-out;
   animation-duration: 15s;
+  animation-iteration-count: 1;
   animation-delay: var(--hair-1-animation-delay);
-}
-
-.net-1 {
-  background-image: url("../assets/images/css_silicon_grid.png");
-  position: fixed;
-  height: 100%;
-  width: 100%;
-  background-size: 100% 100%;
-  opacity: 0;
-  animation-name: reveal;
-  z-index: 100;
-  animation-timing-function: ease-in-out;
-  animation-duration: 20s;
-  animation-delay: var(--net-1-animation-delay);
 }
