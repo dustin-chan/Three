@@ -3,6 +3,20 @@
   display: flex;
   width: 11084px;
   height: 13478px;
+  animation-name: zoom;
+  animation-delay: 10s;
+  animation-iteration-count: 5;
+  animation-duration: 5s;
+  transform-origin: 50% 50%;
+}
+
+@keyframes zoom {
+  0% {transform: scale(1); filter: brightness(1); filter: blur(0px);}
+  25% {transform: scale(1.1); filter: brightness(1.5); filter: blur(2.5px);}
+  40% {transform: scale(1.0); filter: brightness(1); filter: blur(0px);}
+  60% {transform: scale(1.0); filter: brightness(1); filter: blur(0px);}
+  75% {transform: scale(1.1); filter: brightness(1.5); filter: blur(2.5px);}
+  100% {transform: scale(1); filter: brightness(1); filter: blur(0px);}
 }
 
 :root {
@@ -87,7 +101,7 @@
   animation-name: reveal;
   animation-timing-function: ease-in-out;
   animation-duration: 15s;
-  animation-delay: var(--hair-1-animation-delay);
+  animation-delay: 40s;
 }
 
 .hair-2 {
