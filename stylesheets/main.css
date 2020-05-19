@@ -119,6 +119,7 @@
   animation-iteration-count: 1;
   animation-duration: 3s;
   animation-delay: var(--chat-1-animation-delay);
+  z-index: 200;
 }
 
 @keyframes reveal {
@@ -144,6 +145,7 @@
   animation-duration: 3s;
   animation-delay: var(--chat-2-animation-delay);
   animation-iteration-count: 1;
+  z-index: 200;
 }
 
 .chat-3 {
@@ -162,6 +164,7 @@
   animation-duration: 2s;
   animation-delay: var(--chat-3-animation-delay);
   animation-iteration-count: 1;
+  z-index: 200;
 }
 
 .chat-4 {
@@ -180,6 +183,7 @@
   animation-duration: 3s;
   animation-delay: var(--chat-4-animation-delay);
   animation-iteration-count: 1;
+  z-index: 200;
 }
 
 .chat-5 {
@@ -198,6 +202,7 @@
   animation-duration: 3s;
   animation-delay: var(--chat-5-animation-delay);
   animation-iteration-count: 1;
+  z-index: 200;
 }
 
 .chat-6 {
@@ -216,6 +221,7 @@
   animation-duration: 2s;
   animation-delay: var(--chat-6-animation-delay);
   animation-iteration-count: 1;
+  z-index: 200;
 }
 
 .chat-7 {
@@ -234,6 +240,7 @@
   animation-duration: 4s;
   animation-delay: var(--chat-7-animation-delay);
   animation-iteration-count: 1;
+  z-index: 200;
 }
 
 .chat-8 {
@@ -252,6 +259,7 @@
   animation-duration: 2s;
   animation-delay: var(--chat-8-animation-delay);
   animation-iteration-count: 1;
+  z-index: 200;
 }
 
 .chat-9 {
@@ -270,6 +278,7 @@
   animation-duration: 6s;
   animation-delay: var(--chat-9-animation-delay);
   animation-iteration-count: 1;
+  z-index: 200;
 }
 
 .chat-10 {
@@ -288,6 +297,7 @@
   animation-duration: 2s;
   animation-delay: var(--chat-10-animation-delay);
   animation-iteration-count: 1;
+  z-index: 200;
 }
 
 .chat-11 {
@@ -306,6 +316,7 @@
   animation-duration: 3s;
   animation-delay: var(--chat-11-animation-delay);
   animation-iteration-count: 1;
+  z-index: 200;
 }
 
 .chat-12 {
@@ -324,6 +335,7 @@
   animation-duration: 2s;
   animation-delay: var(--chat-12-animation-delay);
   animation-iteration-count: 1;
+  z-index: 200;
 }
 
 .chat-13 {
@@ -342,6 +354,7 @@
   animation-duration: 5s;
   animation-delay: var(--chat-13-animation-delay);
   animation-iteration-count: 1;
+  z-index: 200;
 }
 
 .chat-14 {
@@ -360,6 +373,7 @@
   animation-duration: 2s;
   animation-delay: var(--chat-14-animation-delay);
   animation-iteration-count: 1;
+  z-index: 200;
 }
 
 .chat-15 {
@@ -378,6 +392,7 @@
   animation-duration: 3s;
   animation-delay: var(--chat-15-animation-delay);
   animation-iteration-count: 1;
+  z-index: 200;
 }
 
 .chat-16 {
@@ -396,6 +411,7 @@
   animation-duration: 2s;
   animation-iteration-count: 1;
   animation-delay: var(--chat-16-animation-delay);
+  z-index: 200;
 }
 
 .chat-17 {
@@ -414,6 +430,7 @@
   animation-duration: 4s;
   animation-delay: var(--chat-17-animation-delay);
   animation-iteration-count: 1;
+  z-index: 200;
 }
 
 .chat-18 {
@@ -432,6 +449,7 @@
   animation-duration: 3s;
   animation-delay: var(--chat-18-animation-delay);
   animation-iteration-count: 1;
+  z-index: 200;
 }
 
 .chat-19 {
@@ -450,6 +468,7 @@
   animation-duration: 6s;
   animation-delay: var(--chat-19-animation-delay);
   animation-iteration-count: 1;
+  z-index: 200;
 }
 
 .chat-20 {
@@ -468,6 +487,7 @@
   animation-duration: 2s;
   animation-delay: var(--chat-20-animation-delay);
   animation-iteration-count: 1;
+  z-index: 200;
 }
 
 .hair-1 {
