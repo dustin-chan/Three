@@ -6,8 +6,8 @@
   height: 13478px;
   animation-name: zoom;
   animation-delay: var(--zoom-animation-delay);
-  animation-iteration-count: 6;
-  animation-duration: 7s;
+  animation-iteration-count: 4;
+  animation-duration: 12s;
   transform-origin: 50% 50%;
 }
 
