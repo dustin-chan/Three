@@ -83,7 +83,7 @@
   animation-name: reveal;
   animation-timing-function: ease-in-out;
   animation-iteration-count: 1;
-  animation-duration: 3s;
+  animation-duration: 5s;
   animation-delay: var(--chat-1-animation-delay);
   z-index: 200;
 }
@@ -108,7 +108,7 @@
   opacity: 0;
   animation-name: reveal;
   animation-timing-function: ease-in-out;
-  animation-duration: 3s;
+  animation-duration: 5s;
   animation-delay: var(--chat-2-animation-delay);
   animation-iteration-count: 1;
   z-index: 200;
@@ -127,7 +127,7 @@
   opacity: 0;
   animation-name: reveal;
   animation-timing-function: ease-in-out;
-  animation-duration: 2s;
+  animation-duration: 4s;
   animation-delay: var(--chat-3-animation-delay);
   animation-iteration-count: 1;
   z-index: 200;
@@ -146,7 +146,7 @@
   opacity: 0;
   animation-name: reveal;
   animation-timing-function: ease-in-out;
-  animation-duration: 3s;
+  animation-duration: 5s;
   animation-delay: var(--chat-4-animation-delay);
   animation-iteration-count: 1;
   z-index: 200;
@@ -165,7 +165,7 @@
   opacity: 0;
   animation-name: reveal;
   animation-timing-function: ease-in-out;
-  animation-duration: 3s;
+  animation-duration: 5s;
   animation-delay: var(--chat-5-animation-delay);
   animation-iteration-count: 1;
   z-index: 200;
@@ -184,7 +184,7 @@
   opacity: 0;
   animation-name: reveal;
   animation-timing-function: ease-in-out;
-  animation-duration: 2s;
+  animation-duration: 4s;
   animation-delay: var(--chat-6-animation-delay);
   animation-iteration-count: 1;
   z-index: 200;
@@ -203,7 +203,7 @@
   opacity: 0;
   animation-name: reveal;
   animation-timing-function: ease-in-out;
-  animation-duration: 4s;
+  animation-duration: 6s;
   animation-delay: var(--chat-7-animation-delay);
   animation-iteration-count: 1;
   z-index: 200;
@@ -222,7 +222,7 @@
   opacity: 0;
   animation-name: reveal;
   animation-timing-function: ease-in-out;
-  animation-duration: 2s;
+  animation-duration: 4s;
   animation-delay: var(--chat-8-animation-delay);
   animation-iteration-count: 1;
   z-index: 200;
@@ -241,7 +241,7 @@
   opacity: 0;
   animation-name: reveal;
   animation-timing-function: ease-in-out;
-  animation-duration: 6s;
+  animation-duration: 8s;
   animation-delay: var(--chat-9-animation-delay);
   animation-iteration-count: 1;
   z-index: 200;
@@ -260,7 +260,7 @@
   opacity: 0;
   animation-name: reveal;
   animation-timing-function: ease-in-out;
-  animation-duration: 2s;
+  animation-duration: 4s;
   animation-delay: var(--chat-10-animation-delay);
   animation-iteration-count: 1;
   z-index: 200;
@@ -279,7 +279,7 @@
   opacity: 0;
   animation-name: reveal;
   animation-timing-function: ease-in-out;
-  animation-duration: 3s;
+  animation-duration: 5s;
   animation-delay: var(--chat-11-animation-delay);
   animation-iteration-count: 1;
   z-index: 200;
@@ -298,7 +298,7 @@
   opacity: 0;
   animation-name: reveal;
   animation-timing-function: ease-in-out;
-  animation-duration: 2s;
+  animation-duration: 4s;
   animation-delay: var(--chat-12-animation-delay);
   animation-iteration-count: 1;
   z-index: 200;
@@ -317,7 +317,7 @@
   opacity: 0;
   animation-name: reveal;
   animation-timing-function: ease-in-out;
-  animation-duration: 5s;
+  animation-duration: 7s;
   animation-delay: var(--chat-13-animation-delay);
   animation-iteration-count: 1;
   z-index: 200;
@@ -336,7 +336,7 @@
   opacity: 0;
   animation-name: reveal;
   animation-timing-function: ease-in-out;
-  animation-duration: 2s;
+  animation-duration: 4s;
   animation-delay: var(--chat-14-animation-delay);
   animation-iteration-count: 1;
   z-index: 200;
@@ -355,7 +355,7 @@
   opacity: 0;
   animation-name: reveal;
   animation-timing-function: ease-in-out;
-  animation-duration: 3s;
+  animation-duration: 5s;
   animation-delay: var(--chat-15-animation-delay);
   animation-iteration-count: 1;
   z-index: 200;
@@ -374,7 +374,7 @@
   opacity: 0;
   animation-name: reveal;
   animation-timing-function: ease-in-out;
-  animation-duration: 2s;
+  animation-duration: 4s;
   animation-iteration-count: 1;
   animation-delay: var(--chat-16-animation-delay);
   z-index: 200;
@@ -393,7 +393,7 @@
   opacity: 0;
   animation-name: reveal;
   animation-timing-function: ease-in-out;
-  animation-duration: 4s;
+  animation-duration: 6s;
   animation-delay: var(--chat-17-animation-delay);
   animation-iteration-count: 1;
   z-index: 200;
@@ -412,7 +412,7 @@
   opacity: 0;
   animation-name: reveal;
   animation-timing-function: ease-in-out;
-  animation-duration: 3s;
+  animation-duration: 5s;
   animation-delay: var(--chat-18-animation-delay);
   animation-iteration-count: 1;
   z-index: 200;
@@ -431,7 +431,7 @@
   opacity: 0;
   animation-name: reveal;
   animation-timing-function: ease-in-out;
-  animation-duration: 6s;
+  animation-duration: 8s;
   animation-delay: var(--chat-19-animation-delay);
   animation-iteration-count: 1;
   z-index: 200;
@@ -450,7 +450,7 @@
   opacity: 0;
   animation-name: reveal;
   animation-timing-function: ease-in-out;
-  animation-duration: 2s;
+  animation-duration: 4s;
   animation-delay: var(--chat-20-animation-delay);
   animation-iteration-count: 1;
   z-index: 200;
